@@ -20,8 +20,11 @@ composer require mrleonix/boleto-reader
 The `create` function returns a `Boleto` instance.
 
 ```php
-$boletoNumber = '34190.00000 00000.000003 41000.000000 0 44442000005025';
+$boletoNumber = '34190.00000 00000.000003 41000.000000 0 44442000005025'; // Bank boleto type
 $boleto = Boleto::create($boletoNumber);
+
+$boletoNumber = '84670000001-7 43590024020-9 02405000243-5 84221010811-9'; // Dealership boleto type
+$boletoTwo = Boleto::create($boletoNumber);
 ```
 
 Then you can access `Boleto` information as following:
