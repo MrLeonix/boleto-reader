@@ -1,0 +1,24 @@
+{
+    "name": "mrleonix/boleto-reader",
+    "description": "Useful for getting information from a boleto",
+    "require": {
+        "php": "^7.2"
+    },
+    "type": "library",
+    "keywords": ["boleto","info","information","extract"],
+    "homepage": "https://github.com/MrLeonix/boleto-reader",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leonardo Leandro",
+            "email": "leoleandrohtc@gmail.com",
+            "homepage": "https://nixg.com.br",
+            "role": "FullStack Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Boleto\\": "src/"
+        }
+    }
+}
