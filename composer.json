@@ -2,7 +2,7 @@
     "name": "mrleonix/boleto-reader",
     "description": "Useful for getting information from a boleto",
     "require": {
-        "php": "^7.2",
+        "php": "^7.0",
         "nesbot/carbon": "^2.22"
     },
     "type": "library",
